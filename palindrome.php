@@ -13,3 +13,6 @@ class Palindrome
 			&& self::isPalindrome(mb_substr($lowercaseWord, 1, $wordLength - 2));
 	}
 }
+
+$result = Palindrome::isPalindrome('Deleveled');
+var_dump($result);
